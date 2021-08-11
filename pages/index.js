@@ -15,40 +15,20 @@ class Home extends React.Component {
           <div className="splash-image">
             <div className="container">
               <div className="popover">
-                <h1>Book unique places to stay around the globe</h1>
+                <h1>Kids sports marketplace</h1>
 
                 <HomeSearchForm size="large" />
 
                 <div className="button-container">
                   <Link href="/listings">
-                    <a className="btn btn-primary">Show listings</a>
+                    <a className="btn btn-primary">Show activities</a>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="annotation">
-            <p>
-              <img src="static/stripe.svg" width="60" />
-              Kavholm is a{' '}
-              <a className="stripe" href="https://stripe.com">
-                Stripe
-              </a>{' '}
-              demo that uses{' '}
-              <a href="https://stripe.com/connect" target="_blank">
-                Connect
-              </a>{' '}
-              to build a global marketplace.{' '}
-              <a
-                className="github arrow"
-                href="https://github.com/stripe/stripe-demo-connect-kavholm-marketplace"
-                target="_blank"
-              >
-                View on GitHub
-              </a>
-            </p>
-          </div>
+          
         </div>
         <style jsx>{`
           .home {
